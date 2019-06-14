@@ -1,0 +1,4 @@
+Inorder to identify features that must be selected for training of the model a two-fold approach was adopted.
+First, scatter plots were made for each attribute against price so as to visualize their relationship. This showed most categorical values (on numerically encoding unique values) didn't significantly affect price.
+Secondly, a set of automated feature selection algorithms were adopted (check_feat_sel.py)  - regression, iterative tree based selection and PCA. Through these a series of attributes were identified such as rooms, bathroom, car, lattitude and longitude. On creating scatter plots of these against price the ones which affected price most were the first 3. In addition to this BuildingArea was also chosen as it logically should increase/decrease price. 
+The plots also indicated non-linear relationships and hence the plain linear regression model (house_sales.py) can be seen to perform poorly.

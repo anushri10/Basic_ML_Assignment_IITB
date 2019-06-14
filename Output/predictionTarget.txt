@@ -1,0 +1,4 @@
+Target variable selected - Price.
+The other attributes in the dataset such as the suburb the house is present in, the number of rooms, bathrooms, car spots available etc. can be seen to cumulatively and independently affect housing price. Moreover, looking at the data from a business perspective, clients would be most interested in gaining deeper insight on factors affecting the price of a house and thereby it’s prediction.
+Thus predicting the outcome of price becomes highly attractive for the given dataset.
+As a continuous number is present for housing price it falls under the regression ML problem. 
